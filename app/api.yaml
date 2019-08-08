@@ -1,0 +1,9 @@
+openapi: 3.0.0
+info:
+  title: Spotify Tool API
+  description: API to facilitate interaction with Spotify
+  version: 0.0.1
+paths:
+  /artists:
+    get:
+      summary: Gets the data on the artist

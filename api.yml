@@ -7,3 +7,9 @@ paths:
   /artists:
     get:
       summary: Gets the data on the artist
+      operationId: controller.get_artists
+      responses:
+        200:
+          description: okay response
+        404:
+          description: not found
